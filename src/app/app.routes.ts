@@ -9,7 +9,7 @@ import { RegisterComponent } from './login/register.component';
 
 const appRoutes: Routes =[
     //children tb es un arreglo de rutas
-    { 
+    /*{ 
         path:'',
         component: PagesComponent,
         children:[
@@ -20,7 +20,7 @@ const appRoutes: Routes =[
             {path:'', redirectTo: 'dashboard' , pathMatch:'full'}
    
         ]
-    },    
+    },*/    
     {path:'login', component: LoginComponent},
     {path:'register', component: RegisterComponent},
     {path:'**', component: NopagefoundComponent}
